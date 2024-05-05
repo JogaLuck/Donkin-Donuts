@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dunkin Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/c0b0245c8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<img src="images/logo.png">
+		<div class="topnav" id="myTopnav">
+			<a href="index.html">Menu</a>
+			<a href="producto.html">Productos</a>
+			<a href="servicios.html">Locales</a>
+			<a href="nosotros.html">Nosotros</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    	<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</header>
+	<main>
+		<section id="fondo-titular">
+			<h1>Nosotros</h1>
+		</section>
+		<section>
+			<h2>COMPANY SNAPSHOT</h2>
+			<div class="container-01">
+				
+					<img class="img-nosotros" src="images/primerdunkin.png">
+				
+				<p class="p-nosotros">Dunkin, fundada en 1950, es la marca de café y donas más grande de Estados Unidos, con más de 13.200 restaurantes en casi 50 mercados globales. Dunkin' es parte de la familia de restaurantes Inspire Brands.
+				</p>
+				<p class="p-nosotros">En 1950, Bill Rosenberg abrió el primer Dunkin Donuts en Quincy, Massachusetts y en nuestro país abrimos la primera tienda en diciembre de 1996 en la Av. Larco en el distrito de Miraflores. Llevamos 18 años compartiendo juntos</p>
+			</div>
+			<h2 style="margin-top: 2%; color: #f5821f;">FRANQUICIAMIENTO</h2>
+			<div class="container-01">
+				
+					<img class="img-nosotros" src="images/cafe.png">
+				
+				<p class="p-nosotros">Para preparar el café Dunkin Donuts Original, usamos granos de Café Arábica, un café superior cuya planta tarda cinco años para madurar y dar su primera cosecha. Sus granos son tostados a más de 200 grados centígrados para luego darle el delicioso aroma y sabor único a nuestro Dunkin Donuts Original, cuya receta hoy, es la misma que preparó el fundador Bill Rosenberg en 1950
+				</p>
+				<p class="p-nosotros">Nuestros donuts se elaboran a mano de forma totalmente artesanal. Llevan el toque de cariño y personalidad de nuestro experimentado equipo. A través de su experiencia y continua investigación, podemos ofrecer una amplia variedad de sabores y creaciones únicas que solo podrás encontrar en Dunkin Donuts</p>
+			</div>
+		</section>
+		<section style="background: #F9EEDF;">
+			<h2>Horarios</h2>
+			<div class="container-02">
+				
+				<table>
+					<caption>Horario de atencios</caption>
+					<tr>
+						<th>Día</th>
+						<th colspan="2">Apertura / Cierre</th>
+					</tr>
+					<tr>
+						<td>Lunes</td>
+						<td>10AM</td>
+						<td>11PM</td>
+					</tr>
+					<tr class="celda-intermedia">
+						<td>Martes</td>
+						<td>10AM</td>
+						<td>11PM</td>
+					</tr>
+					<tr>
+						<td>Miercoles</td>
+						<td>10AM</td>
+						<td>11PM</td>
+					</tr>
+					<tr class="celda-intermedia">
+						<td>Jueves</td>
+						<td>10AM</td>
+						<td>11PM</td>
+					</tr>
+					<tr>
+						<td>Viernes</td>
+						<td>10AM</td>
+						<td>11PM</td>
+					</tr>
+					<tr class="celda-intermedia">
+						<td>Sábado</td>
+						<td>11AM</td>
+						<td>10PM</td>
+					</tr>
+					<tr>
+						<td>Domingo</td>
+						<td>11AM</td>
+						<td>6PM</td>
+					</tr>
+				</table>
+			
+			</div>
+		</section>
+		<section>
+			<h2>Servicios</h2>
+			<div class="container-01">
+				<div>
+					<img style="border-radius: 50%;" src="images/fundacion.png">
+					<h3>Fundacion</h3>
+					<p>Sirviendo a nuestras comunidades</p>
+				</div>
+				<div>
+					<img style="border-radius: 50%;" src="images/Careers.png">
+					<h3>Careers</h3>
+					<p>Unete a la tripulacion de Dunkin</p>
+				</div>
+				<div>
+					<img style="border-radius: 50%;" src="images/Blog.png">
+					<h3>Blog</h3>
+					<p>Descubra lo que se cuece en Dunkin</p>
+				</div>
+			</div>
+		</section>
+
+
+
+	</main>
+	<i class="fa-brands fa-square-whatsapp fa-2xl enlace-icono" style="color: #00833D;"></i>
+	<footer>
+		<p class="p-footer">2023. Todos los derechos reservados.</p>
+	</footer>
+	<!-- JS PARA MENU SUPERIOR -->
+	<script type="text/javascript">
+		function myFunction() {
+  			var x = document.getElementById("myTopnav");
+  			if (x.className === "topnav") {
+    			x.className += " responsive";
+  			} else {
+    		x.className = "topnav";
+  			}
+		}
+	</script>
+</body>
+</html>

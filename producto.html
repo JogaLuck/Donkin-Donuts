@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dunkin Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/c0b0245c8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<img src="images/logo.png">
+		<div class="topnav" id="myTopnav">
+			<a href="index.html">Menu</a>
+			<a href="producto.html">Productos</a>
+			<a href="servicios.html">Locales</a>
+			<a href="nosotros.html">Nosotros</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    	<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</header>
+	<main>
+		<section id="fondo-titular">
+			<h1>Productos</h1>
+		</section>
+		<section>
+			<h2>CARTA</h2>
+			<div class="container-01">
+				<div>
+					<img class="animacion circulo-img" src="images/dona1.png"> 
+					<h3>Explosion de colores</h3>
+					<p>El mejor sabor del mar con condimentos andinos</p>
+				</div>
+				<div>
+					<img class="animacion circulo-img" src="images/dona2.png">
+					<h3>Donut</h3>
+					<p>Sopa de verduras con el sabor casero de mamá</p>
+				</div>
+				<div>
+					<img class="animacion circulo-img" src="images/dona3.png">
+					<h3>La felicidad</h3>
+					<p>El sabor gourmet combinado con ingredientes picantes</p>
+				</div>
+				<div>
+					<img class="animacion circulo-img" src="images/dona4.png">
+					<h3>Munchkins</h3>
+					<p>La delicia de ciudad con aderezo a la italiana</p>
+				</div>
+				<div>
+					<img class="animacion circulo-img" src="images/dona5.png">
+					<h3>Paraiso de colores</h3>
+					<p>Un nuevo sabor con viejas recetas</p>
+				</div>
+			</div>
+		</section>
+		<section style="background: #F9EEDF;">
+			<h2>NOSOTROS</h2>
+			<div class="container-02">
+				<video controls preload poster="images/poster.png">
+					<source src="media/video1-donkin.mkv" type="video/mp4">
+				</video>
+			</div>
+		</section>
+		<section>
+			<h2>METODOS DE PAGO</h2>
+			<div class="container-01">
+				<div>
+					<img style="border-radius: 15px;" src="images/YAPE.png">
+					<h3>YAPE</h3>
+					<p>Usa tu billetera digital y paga mediante la plataforma yape rádido y sencillo.</p>
+				</div>
+				<div>
+					<img style="border-radius: 15px;" src="images/BCP.png">
+					<h3>BCP</h3>
+					<p>Realiza transferencias bancarias meditante BCP.</p>
+				</div>
+				<div>
+					<img style="border-radius: 15px;" src="images/VISA.png">
+					<h3>VISA</h3>
+					<p>Se aceptan todo tipos de medio de pago via VISA.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<i class="fa-brands fa-square-whatsapp fa-2xl enlace-icono" style="color: #00833D;"></i>
+	<footer>
+		<p class="p-footer">2023. Todos los derechos reservados.</p>
+	</footer>
+	<!-- JS PARA MENU SUPERIOR -->
+	<script type="text/javascript">
+		function myFunction() {
+  			var x = document.getElementById("myTopnav");
+  			if (x.className === "topnav") {
+    			x.className += " responsive";
+  			} else {
+    		x.className = "topnav";
+  			}
+		}
+	</script>
+</body>
+</html>

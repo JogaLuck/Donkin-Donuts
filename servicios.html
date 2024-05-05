@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dunkin Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/c0b0245c8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<img src="images/logo.png">
+		<div class="topnav" id="myTopnav">
+			<a href="index.html">Menu</a>
+			<a href="producto.html">Productos</a>
+			<a href="servicios.html">Locales</a>
+			<a href="nosotros.html">Nosotros</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    	<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</header>
+	<main>
+		<section id="fondo-titular">
+			<h1>LOCALES</h1>
+		</section>
+		<section>
+			<h2>SUCURSALES</h2>
+			<div class="container-01">
+				<div>
+					<img style="border-radius: 15px;" class="animacion" src="images/bellavista.png">
+					<h3>Mall Plaza</h3>
+					<p>Av. Oscar R Benavides Nro. 3866, Callao</p>
+				</div>
+				<div>
+					<img style="border-radius: 15px;" class="animacion" src="images/plazasanmiguel.png">
+					<h3>Plaza San Miguel</h3>
+					<p>AV. LA MARINA N° 54, SAN MIGUEL</p>
+				</div>
+				<div>
+					<img style="border-radius: 15px;" class="animacion" src="images/plazaveaarequipa.png">
+					<h3>Plaza Vea</h3>
+					<p>AV. AREQUIPA 2250, LCI-101, LIMA</p>
+				</div>
+				<div>
+					<img style="border-radius: 15px;" class="animacion" src="images/realplaza.png">
+					<h3>Real Plaza</h3>
+					<p>AV. GRAL. SALAVERRY 2370, JESUS MARIA 15076</p>
+				</div>
+				<div>
+					<img style="border-radius: 15px;" class="animacion" src="images/javierprado.png">
+					<h3>Javier Prado</h3>
+					<p>AV. JAVIER PRADO ESTE N° 510, SAN ISIDRO</p>
+				</div>
+			</div>
+		</section>
+		<section style="background: #F9EEDF;">
+			<h2>DELIVERY</h2>
+			<div class="container">
+				<iframe class="responsive-iframe" src="https://www.youtube.com/embed/0QJ2TjrAubo?si=uSY4P_7PP8lxOyOF" ></iframe>
+			</div>
+		</section>
+		<section>
+			<h2>SERVICIOS</h2>
+			<div class="container-01">
+				<div>
+					<img style="border-radius: 15px;" src="images/servicios1.png">
+					<h3>Compra</h3>
+					<p>Seguridad alimentaria y medidas patra protección de productos y clientes</p>
+				</div>
+				<div>
+					<img style="border-radius: 15px;" src="images/servicios2.png">
+					<h3>Venta</h3>
+					<p>Eficacia en la presentación de nuestros productos, con garantía de asepcia</p>
+				</div>
+				<div>
+					<img style="border-radius: 15px;" src="images/servicios3.png">
+					<h3>Distribución</h3>
+					<p>Tiempos cortos y satisfacción total al momento de la entrega por delivery</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<i class="fa-brands fa-square-whatsapp fa-2xl enlace-icono" style="color: #00833D;"></i>
+	<footer>
+		<p class="p-footer">2023. Todos los derechos reservados.</p>
+	</footer>
+	<!-- JS PARA MENU SUPERIOR -->
+	<script type="text/javascript">
+		function myFunction() {
+  			var x = document.getElementById("myTopnav");
+  			if (x.className === "topnav") {
+    			x.className += " responsive";
+  			} else {
+    		x.className = "topnav";
+  			}
+		}
+	</script>
+</body>
+</html>
